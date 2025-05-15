@@ -246,6 +246,7 @@ fixtures=[
     # 'Interview Round',
     # 'Interview Feedback',
     # 'Interview Schedule'
+    # "Gender"
 ]
 
 add_to_apps_screen = [
