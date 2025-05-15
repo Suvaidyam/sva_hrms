@@ -1,0 +1,39 @@
+{
+    "cards": [
+        {
+            "card": "On Leave Today"
+        },
+        {
+            "card": "My Remaining Leaves"
+        }
+    ],
+    "charts": [
+        {
+            "width": "Half"
+        },
+        {
+            "chart": "Leave Type List",
+            "width": "Half"
+        },
+        {
+            "chart": "My Leave Chart",
+            "width": "Half"
+        },
+        {
+            "chart": "My Leave Balance",
+            "width": "Half"
+        }
+    ],
+    "creation": "2025-01-21 13:49:41.499342",
+    "dashboard_name": "My Leaves",
+    "docstatus": 0,
+    "doctype": "Dashboard",
+    "idx": 0,
+    "is_default": 0,
+    "is_standard": 1,
+    "modified": "2025-01-28 17:04:54.016361",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "My Leaves",
+    "owner": "Administrator"
+}

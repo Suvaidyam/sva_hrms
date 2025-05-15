@@ -1,0 +1,67 @@
+{
+    "actions": [],
+    "allow_import": 1,
+    "allow_rename": 1,
+    "creation": "2024-12-18 12:32:23.768063",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "city",
+        "state",
+        "column_break_vmpp",
+        "country",
+        "zip"
+    ],
+    "fields": [
+        {
+            "fieldname": "city",
+            "fieldtype": "Data",
+            "label": "City"
+        },
+        {
+            "fieldname": "state",
+            "fieldtype": "Select",
+            "label": "State",
+            "options": "\nAndhra Pradesh\nArunachal Pradesh\nAssam\nBihar\nChhattisgarh\nGoa\nGujarat\nHaryana\nHimachal Pradesh\nJharkhand\nKarnataka\nKerala\nMadhya Pradesh\nMaharashtra\nManipur\nMeghalaya\nMizoram\nNagaland\nOdisha\nPunjab\nRajasthan\nSikkim\nTamil Nadu\nTelangana\nTripura\nUttar Pradesh\nUttarakhand\nWest Bengal\nChandigarh\nDelhi\nDadra and Nagar Haveli and Daman and Diu\nAndaman and Nicobar Islands\nLakshadweep\nPuducherry\nLadakh\nJammu & Kashmir"
+        },
+        {
+            "fieldname": "column_break_vmpp",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "country",
+            "fieldtype": "Link",
+            "label": "Country",
+            "options": "Country"
+        },
+        {
+            "fieldname": "zip",
+            "fieldtype": "Data",
+            "label": "Zip"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2024-12-18 12:41:10.117778",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "City Zip State",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

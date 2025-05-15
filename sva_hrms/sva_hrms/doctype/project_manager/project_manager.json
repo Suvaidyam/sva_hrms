@@ -1,0 +1,32 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2024-12-19 15:23:24.035594",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "project_manager"
+    ],
+    "fields": [
+        {
+            "fieldname": "project_manager",
+            "fieldtype": "Link",
+            "in_list_view": 1,
+            "in_preview": 1,
+            "label": "Project Manager",
+            "options": "Employee"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "istable": 1,
+    "links": [],
+    "modified": "2024-12-19 15:24:18.725004",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Project Manager",
+    "owner": "Administrator",
+    "permissions": [],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

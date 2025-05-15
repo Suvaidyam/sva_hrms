@@ -1,0 +1,75 @@
+{
+    "charts": [],
+    "content": "[{\"id\":\"Hix5i_26fa\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Home Dashboard</span>\",\"col\":12}},{\"id\":\"VPY6INOFSs\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Holiday\",\"col\":4}},{\"id\":\"vpr6MQWzA3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"On Leave Today\",\"col\":4}},{\"id\":\"oYWPpUiApq\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Upcoming Birthdays\",\"col\":4}},{\"id\":\"vl85Vt3JnE\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Upcoming Work Anniversary\",\"col\":4}},{\"id\":\"8u8rwDPTAw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Link</b></span>\",\"col\":12}},{\"id\":\"LtM3b52Lp-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Meal\",\"col\":3}},{\"id\":\"2jWmvIepuo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"WhatsApp Group\",\"col\":3}},{\"id\":\"4U6WFxAse3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Razorpay Portal\",\"col\":3}},{\"id\":\"DERZRUhSes\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Policy\",\"col\":3}}]",
+    "creation": "2025-02-06 18:39:23.522063",
+    "custom_blocks": [],
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "retail",
+    "idx": 0,
+    "indicator_color": "",
+    "is_hidden": 0,
+    "label": "Home Dashboard",
+    "links": [],
+    "modified": "2025-02-06 19:01:28.685675",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Home Dashboard",
+    "number_cards": [
+        {
+            "label": "Holiday",
+            "number_card_name": "Dhwani Holiday"
+        },
+        {
+            "label": "Upcoming Birthdays",
+            "number_card_name": "Upcoming Birthdays"
+        },
+        {
+            "label": "On Leave Today",
+            "number_card_name": "On Leave Today"
+        },
+        {
+            "label": "Upcoming Work Anniversary",
+            "number_card_name": "Work Anniversary"
+        }
+    ],
+    "owner": "Administrator",
+    "parent_page": "",
+    "public": 1,
+    "quick_lists": [],
+    "roles": [],
+    "sequence_id": 1.0,
+    "shortcuts": [
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Leave Policy",
+            "type": "URL",
+            "url": "https://bit.ly/40q7cK1"
+        },
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Meal",
+            "type": "URL",
+            "url": "https://chat.whatsapp.com/KOsqSmRPhjwBU7NZWfn1jf"
+        },
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Razorpay Portal",
+            "type": "URL",
+            "url": "https://payroll.razorpay.com/login"
+        },
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "WhatsApp Group",
+            "type": "URL",
+            "url": "https://chat.whatsapp.com/FZzxUsnEkVaD4UJwiI2CNO"
+        }
+    ],
+    "title": "Home Dashboard"
+}

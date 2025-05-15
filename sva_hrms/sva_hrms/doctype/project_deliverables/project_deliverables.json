@@ -1,0 +1,84 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "field:project",
+    "creation": "2025-01-06 18:29:36.143167",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "project",
+        "project_name",
+        "column_break_qikh",
+        "client",
+        "client_code",
+        "project_deliverables_table_section",
+        "table_jmfp"
+    ],
+    "fields": [
+        {
+            "fieldname": "project",
+            "fieldtype": "Link",
+            "label": "Project",
+            "options": "Project",
+            "unique": 1
+        },
+        {
+            "fetch_from": "project.project_name",
+            "fieldname": "project_name",
+            "fieldtype": "Data",
+            "label": "Project Name"
+        },
+        {
+            "fieldname": "column_break_qikh",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fetch_from": "project.customer",
+            "fieldname": "client",
+            "fieldtype": "Link",
+            "label": "Client",
+            "options": "Customer"
+        },
+        {
+            "fetch_from": "client.custom_client_code",
+            "fieldname": "client_code",
+            "fieldtype": "Data",
+            "label": "Client Code"
+        },
+        {
+            "fieldname": "project_deliverables_table_section",
+            "fieldtype": "Section Break",
+            "label": "Project Deliverables Table"
+        },
+        {
+            "fieldname": "table_jmfp",
+            "fieldtype": "Table",
+            "options": "Project Deliverables Table"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2025-01-07 14:24:04.299827",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Project Deliverables",
+    "naming_rule": "By fieldname",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

@@ -1,0 +1,74 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "format:Appraisal Wall-{MM}-{YYYY}-{#####}",
+    "creation": "2025-04-23 19:16:27.967890",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "name_of_the_team_member",
+        "project",
+        "reason",
+        "add_attachment",
+        "add_badge"
+    ],
+    "fields": [
+        {
+            "fieldname": "name_of_the_team_member",
+            "fieldtype": "Table MultiSelect",
+            "label": "Name of the team member",
+            "options": "Employee Child",
+            "reqd": 1
+        },
+        {
+            "fieldname": "project",
+            "fieldtype": "Table MultiSelect",
+            "label": "Project",
+            "options": "Project Child",
+            "reqd": 1
+        },
+        {
+            "fieldname": "reason",
+            "fieldtype": "Text Editor",
+            "in_list_view": 1,
+            "label": "Reason",
+            "reqd": 1
+        },
+        {
+            "fieldname": "add_attachment",
+            "fieldtype": "Attach Image",
+            "label": "Add Attachment"
+        },
+        {
+            "fieldname": "add_badge",
+            "fieldtype": "Attach",
+            "label": "Add Badge"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2025-05-10 09:35:32.117994",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Appraisal Wall",
+    "naming_rule": "Expression",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

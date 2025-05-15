@@ -1,0 +1,22 @@
+{
+    "creation": "2025-01-28 17:06:40.083527",
+    "docstatus": 0,
+    "doctype": "Number Card",
+    "filters_json": "{\"leave_type\":\"Leave Without Pay\"}",
+    "function": "Count",
+    "idx": 0,
+    "is_public": 1,
+    "is_standard": 1,
+    "label": "Remaining Leaves ( Leave Without Pay )",
+    "modified": "2025-01-28 17:06:43.549256",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Remaining Leaves ( Leave Without Pay )",
+    "owner": "Administrator",
+    "report_field": "remaining_leaves",
+    "report_function": "Sum",
+    "report_name": "My Leave Balance",
+    "show_percentage_stats": 1,
+    "stats_time_interval": "Daily",
+    "type": "Report"
+}

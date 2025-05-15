@@ -1,0 +1,106 @@
+{
+    "charts": [
+        {
+            "chart_name": "My Leave Chart",
+            "label": "Leave Chart"
+        },
+        {
+            "chart_name": "My Leave Balance",
+            "label": "My Leave Balance"
+        }
+    ],
+    "content": "[{\"id\":\"_Jx7K1RYHs\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Leave</span>\",\"col\":12}},{\"id\":\"xXxv3brzpg\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"mNdZ1vk1TY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Calendar\",\"col\":3}},{\"id\":\"Tr6s1LTePs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Request\",\"col\":3}},{\"id\":\"iW_sGCoyQP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Compensatory Leave Request\",\"col\":4}},{\"id\":\"JHOsiLYJJd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Policy\",\"col\":3}},{\"id\":\"pERvU8anuz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"sVhQWxKHdu\",\"type\":\"chart\",\"data\":{\"chart_name\":\"My Leave Balance\",\"col\":12}},{\"id\":\"rTWuTTidJm\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Remaining Leaves\",\"col\":4}},{\"id\":\"aAMqmGqWEp\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Remaining Leaves ( Casual )\",\"col\":4}},{\"id\":\"_ij54k2wZ_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Remaining Leaves ( Compensatory Off )\",\"col\":4}},{\"id\":\"RmmIzbAVfp\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Remaining Leaves ( Leave Without Pay )\",\"col\":4}},{\"id\":\"vxYuxbrr4K\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Remaining Leaves ( Privilege Leave )\",\"col\":4}},{\"id\":\"2Iw7Hqkt8f\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Remaining Leaves ( Sick Leave )\",\"col\":4}},{\"id\":\"oFKsV8BVNV\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"sMiQ78-aQx\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Leave Chart\",\"col\":12}},{\"id\":\"sj71gIqiFK\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"c558h1ujV-\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Leave Reuest\",\"col\":6}},{\"id\":\"N_-EEG_2Ah\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Compensatory Leave Request\",\"col\":6}}]",
+    "creation": "2025-01-15 16:42:41.343108",
+    "custom_blocks": [],
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "message-1",
+    "idx": 0,
+    "indicator_color": "green",
+    "is_hidden": 0,
+    "label": "Leave",
+    "links": [],
+    "modified": "2025-02-03 14:28:37.410957",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Leave",
+    "number_cards": [
+        {
+            "label": "Total Remaining Leaves",
+            "number_card_name": "My Remaining Leaves"
+        },
+        {
+            "label": "Remaining Leaves ( Casual )",
+            "number_card_name": "Remaining Leaves ( Casual )"
+        },
+        {
+            "label": "Remaining Leaves ( Compensatory Off )",
+            "number_card_name": "Remaining Leaves ( Compensatory Off )"
+        },
+        {
+            "label": "Remaining Leaves ( Leave Without Pay )",
+            "number_card_name": "Remaining Leaves ( Leave Without Pay )"
+        },
+        {
+            "label": "Remaining Leaves ( Privilege Leave )",
+            "number_card_name": "Remaining Leaves ( Privilege Leave )"
+        },
+        {
+            "label": "Remaining Leaves ( Sick Leave )",
+            "number_card_name": "Remaining Leaves ( Sick Leave )"
+        }
+    ],
+    "owner": "Administrator",
+    "parent_page": "Me",
+    "public": 1,
+    "quick_lists": [
+        {
+            "document_type": "Leave Application",
+            "label": "Leave Reuest",
+            "quick_list_filter": "[]"
+        },
+        {
+            "document_type": "Compensatory Leave Request",
+            "label": "Compensatory Leave Request",
+            "quick_list_filter": "[]"
+        }
+    ],
+    "roles": [],
+    "sequence_id": 4.0,
+    "shortcuts": [
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Leave Policy",
+            "type": "URL",
+            "url": "https://bit.ly/40q7cK1"
+        },
+        {
+            "color": "Grey",
+            "doc_view": "Calendar",
+            "label": "Leave Calendar",
+            "link_to": "Leave Application",
+            "stats_filter": "[]",
+            "type": "DocType"
+        },
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Compensatory Leave Request",
+            "link_to": "Compensatory Leave Request",
+            "stats_filter": "[]",
+            "type": "DocType"
+        },
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Leave Request",
+            "link_to": "Leave Application",
+            "stats_filter": "[]",
+            "type": "DocType"
+        }
+    ],
+    "title": "Leave"
+}

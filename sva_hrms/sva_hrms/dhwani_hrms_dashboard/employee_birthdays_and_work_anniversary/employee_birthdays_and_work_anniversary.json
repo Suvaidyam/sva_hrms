@@ -1,0 +1,35 @@
+{
+    "cards": [
+        {
+            "card": "Sum of Years"
+        },
+        {
+            "card": "This Week Birthdays"
+        }
+    ],
+    "charts": [
+        {
+            "width": "Half"
+        },
+        {
+            "chart": "This Week Employee Birthdays",
+            "width": "Full"
+        },
+        {
+            "chart": "This Week Employee Work Anniversary",
+            "width": "Full"
+        }
+    ],
+    "creation": "2025-01-21 13:08:24.891609",
+    "dashboard_name": "Employee Birthdays and Work Anniversary",
+    "docstatus": 0,
+    "doctype": "Dashboard",
+    "idx": 0,
+    "is_default": 0,
+    "is_standard": 1,
+    "modified": "2025-01-21 13:18:34.507798",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Employee Birthdays and Work Anniversary",
+    "owner": "Administrator"
+}

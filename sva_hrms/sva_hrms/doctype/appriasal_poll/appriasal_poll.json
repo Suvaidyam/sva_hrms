@@ -1,0 +1,72 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2025-05-08 15:36:27.966921",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "title",
+        "options",
+        "expiry_date",
+        "notify_employees",
+        "anonymous_poll"
+    ],
+    "fields": [
+        {
+            "fieldname": "title",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Title",
+            "reqd": 1
+        },
+        {
+            "fieldname": "expiry_date",
+            "fieldtype": "Date",
+            "label": "Expiry Date"
+        },
+        {
+            "default": "0",
+            "fieldname": "notify_employees",
+            "fieldtype": "Check",
+            "label": "Notify Employees"
+        },
+        {
+            "default": "0",
+            "fieldname": "anonymous_poll",
+            "fieldtype": "Check",
+            "label": "Anonymous Poll"
+        },
+        {
+            "fieldname": "options",
+            "fieldtype": "Table",
+            "label": "Options",
+            "options": "Poll Option Child"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2025-05-09 13:49:16.466313",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Appriasal Poll",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "row_format": "Dynamic",
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

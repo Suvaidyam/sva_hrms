@@ -1,0 +1,60 @@
+{
+    "charts": [],
+    "content": "[{\"id\":\"slZo2H-GqB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Performance.</span>\",\"col\":12}},{\"id\":\"10vmnSyAeH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Goal\",\"col\":3}},{\"id\":\"czwFahGXN6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Appraisal\",\"col\":3}},{\"id\":\"tkq6i4GtAa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Performance Feedback\",\"col\":3}},{\"id\":\"hIr7OWnH3i\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Employee Promotion\",\"col\":5}}]",
+    "creation": "2025-01-16 10:51:21.462032",
+    "custom_blocks": [],
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "star",
+    "idx": 0,
+    "indicator_color": "",
+    "is_hidden": 0,
+    "label": "Performance.",
+    "links": [],
+    "modified": "2025-03-05 11:28:11.741694",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Performance.",
+    "number_cards": [],
+    "owner": "Administrator",
+    "parent_page": "Me",
+    "public": 1,
+    "quick_lists": [
+        {
+            "document_type": "Employee Promotion",
+            "label": "Employee Promotion",
+            "quick_list_filter": "[]"
+        }
+    ],
+    "roles": [],
+    "sequence_id": 6.0,
+    "shortcuts": [
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Appraisal",
+            "link_to": "Appraisal",
+            "stats_filter": "[]",
+            "type": "DocType"
+        },
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Goal",
+            "link_to": "Goal",
+            "stats_filter": "[]",
+            "type": "DocType"
+        },
+        {
+            "color": "Green",
+            "doc_view": "List",
+            "label": "Employee Performance Feedback",
+            "link_to": "Employee Performance Feedback",
+            "stats_filter": "[]",
+            "type": "DocType"
+        }
+    ],
+    "title": "Performance."
+}

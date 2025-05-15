@@ -1,0 +1,23 @@
+{
+    "creation": "2025-01-27 12:39:41.692620",
+    "docstatus": 0,
+    "doctype": "Number Card",
+    "dynamic_filters_json": "{}",
+    "filters_json": "{}",
+    "function": "Count",
+    "idx": 0,
+    "is_public": 1,
+    "is_standard": 1,
+    "label": "Total Remaining Leaves",
+    "modified": "2025-01-27 12:39:45.794907",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Total Remaining Leaves",
+    "owner": "Administrator",
+    "report_field": "remaining_leaves",
+    "report_function": "Sum",
+    "report_name": "My Leave Balance",
+    "show_percentage_stats": 1,
+    "stats_time_interval": "Daily",
+    "type": "Report"
+}

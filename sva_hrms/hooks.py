@@ -237,3 +237,22 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures=[
+    # 'Staffing Plan',
+    # 'Job Applicant',
+    # 'Job Opening',
+    # 'Job Offer',
+    # 'Interview',
+    # 'Interview Round',
+    # 'Interview Feedback',
+    # 'Interview Schedule'
+]
+
+add_to_apps_screen = [
+    {
+        "name": "suvaidyam_hrms",
+        "logo": "/assets/suvaidyam_hrms/images/suvaidya_logo.png",
+        "title": "Suvaidyam_hrms",
+        # "route": "/app/sva-user",
+    }
+]

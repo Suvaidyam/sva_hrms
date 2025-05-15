@@ -1,0 +1,42 @@
+{
+    "charts": [],
+    "content": "[{\"id\":\"FRBnE1iJft\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Appriasal Wall</span>\",\"col\":12}},{\"id\":\"UC_3ftE55r\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Appraisal Wall \",\"col\":3}},{\"id\":\"SVYOHxpOeq\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Appriasal Wall Card\",\"col\":12}}]",
+    "creation": "2025-05-03 13:06:15.255626",
+    "custom_blocks": [
+        {
+            "custom_block_name": "Appriasal Wall Card",
+            "label": "Appriasal Wall Card"
+        }
+    ],
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "clap",
+    "idx": 0,
+    "indicator_color": "green",
+    "is_hidden": 0,
+    "label": "Appriasal Wall",
+    "links": [],
+    "modified": "2025-05-09 18:15:00.111653",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Appriasal Wall",
+    "number_cards": [],
+    "owner": "Administrator",
+    "parent_page": "",
+    "public": 1,
+    "quick_lists": [],
+    "roles": [],
+    "sequence_id": 48.0,
+    "shortcuts": [
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Create Appraisal Wall ",
+            "link_to": "Appraisal Wall",
+            "type": "Page"
+        }
+    ],
+    "title": "Appriasal Wall"
+}

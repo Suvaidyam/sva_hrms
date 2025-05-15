@@ -1,0 +1,71 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2025-01-02 16:48:42.655400",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "date",
+        "column_break_xdih",
+        "amount",
+        "column_break_bjfy",
+        "subscription_cost",
+        "column_break_xnby",
+        "invoiced"
+    ],
+    "fields": [
+        {
+            "fieldname": "amount",
+            "fieldtype": "Currency",
+            "in_list_view": 1,
+            "in_preview": 1,
+            "label": "Amount"
+        },
+        {
+            "fieldname": "column_break_xdih",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "date",
+            "fieldtype": "Date",
+            "in_list_view": 1,
+            "in_preview": 1,
+            "label": "Date"
+        },
+        {
+            "fieldname": "column_break_bjfy",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "subscription_cost",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "in_preview": 1,
+            "label": "Type Of Cost",
+            "options": "\nSubscription Cost\nAMC\nSetup Cost\nDevelopment Cost"
+        },
+        {
+            "fieldname": "column_break_xnby",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "invoiced",
+            "fieldtype": "Select",
+            "label": "Invoiced",
+            "options": "\nYes\nNo"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "istable": 1,
+    "links": [],
+    "modified": "2025-04-24 16:32:12.745620",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Project Contracts",
+    "owner": "Administrator",
+    "permissions": [],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

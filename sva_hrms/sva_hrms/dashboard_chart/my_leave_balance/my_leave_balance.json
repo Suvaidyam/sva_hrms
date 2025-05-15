@@ -1,0 +1,41 @@
+{
+    "chart_name": "My Leave Balance",
+    "chart_type": "Report",
+    "creation": "2025-01-27 15:57:00.064113",
+    "docstatus": 0,
+    "doctype": "Dashboard Chart",
+    "dynamic_filters_json": "{}",
+    "filters_json": "{}",
+    "group_by_type": "Count",
+    "idx": 3,
+    "is_public": 1,
+    "is_standard": 1,
+    "modified": "2025-01-28 17:00:33.431137",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "My Leave Balance",
+    "number_of_groups": 0,
+    "owner": "Administrator",
+    "report_name": "My Leave Balance",
+    "roles": [],
+    "time_interval": "Yearly",
+    "timeseries": 0,
+    "timespan": "Last Year",
+    "type": "Donut",
+    "use_report_chart": 1,
+    "x_field": "leave_type",
+    "y_axis": [
+        {
+            "y_field": "total_leaves_allocated"
+        },
+        {
+            "y_field": "leaves_taken"
+        },
+        {
+            "y_field": "leaves_pending_approval"
+        },
+        {
+            "y_field": "remaining_leaves"
+        }
+    ]
+}

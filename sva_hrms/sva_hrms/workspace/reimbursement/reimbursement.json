@@ -1,0 +1,75 @@
+{
+    "charts": [
+        {
+            "chart_name": "Expense Claims",
+            "label": "Expense Claims"
+        }
+    ],
+    "content": "[{\"id\":\"mEtt-H2pHU\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reimbursement</span>\",\"col\":12}},{\"id\":\"bEe06kU2Lk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Expense Claims\",\"col\":12}},{\"id\":\"npFDoY2bPd\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Expense Claim\",\"col\":4}},{\"id\":\"-8fRBamIJn\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Expense Claim Type\",\"col\":4}},{\"id\":\"9VQ9-6kG5h\",\"type\":\"card\",\"data\":{\"card_name\":\"Travel \",\"col\":4}}]",
+    "creation": "2025-01-16 10:52:14.872837",
+    "custom_blocks": [],
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "projects",
+    "idx": 0,
+    "indicator_color": "",
+    "is_hidden": 0,
+    "label": "Reimbursement",
+    "links": [
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Travel ",
+            "link_count": 2,
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Travel Request",
+            "link_count": 0,
+            "link_to": "Travel Request",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Purpose of Travel",
+            "link_count": 0,
+            "link_to": "Purpose of Travel",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        }
+    ],
+    "modified": "2025-02-03 14:28:37.692873",
+    "modified_by": "Administrator",
+    "module": "Sva Hrms",
+    "name": "Reimbursement",
+    "number_cards": [],
+    "owner": "Administrator",
+    "parent_page": "Me",
+    "public": 1,
+    "quick_lists": [
+        {
+            "document_type": "Expense Claim Type",
+            "label": "Expense Claim Type",
+            "quick_list_filter": "[]"
+        },
+        {
+            "document_type": "Expense Claim",
+            "label": "Expense Claim",
+            "quick_list_filter": "[]"
+        }
+    ],
+    "roles": [],
+    "sequence_id": 7.0,
+    "shortcuts": [],
+    "title": "Reimbursement"
+}
