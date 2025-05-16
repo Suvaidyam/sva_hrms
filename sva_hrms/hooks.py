@@ -4,6 +4,7 @@ app_publisher = "Vivek Kumar"
 app_description = "Tech@gmail.com"
 app_email = "vivek@gmail.com"
 app_license = "mit"
+app_logo_url = "/assets/sva_hrms/images/suvaidya_logo.png"
 
 # Apps
 # ------------------
