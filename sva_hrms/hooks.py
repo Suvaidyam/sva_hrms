@@ -250,11 +250,15 @@ fixtures=[
     # "My Theme"
 ]
 
+
+
+
+
 add_to_apps_screen = [
     {
         "name": "sva_hrms",
         "logo": "/assets/sva_hrms/images/suvaidya_logo.png",
         "title": "Suvaidyam Hrms",
-        # "route": "/app/sva-user",
+        "route": "/app",
     }
 ]
