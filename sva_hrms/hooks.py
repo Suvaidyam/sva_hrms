@@ -238,6 +238,7 @@ app_license = "mit"
 # }
 
 fixtures=[
+    # 'Custom DocPerm',
     # 'Staffing Plan',
     # 'Job Applicant',
     # 'Job Opening',
@@ -248,6 +249,8 @@ fixtures=[
     # 'Interview Schedule'
     # "Gender"
     # "My Theme"
+    # "Employee",
+    # "User"
 ]
 
 
