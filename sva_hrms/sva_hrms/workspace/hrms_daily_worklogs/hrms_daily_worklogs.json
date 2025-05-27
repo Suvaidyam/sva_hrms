@@ -1,0 +1,41 @@
+{
+ "app": "sva_hrms",
+ "charts": [],
+ "content": "[{\"id\":\"fdy-cRbfMv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Worklog\",\"col\":3}}]",
+ "creation": "2025-05-27 14:36:42.292806",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "workflow",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "HRMS Daily Worklogs",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-05-27 14:42:23.798580",
+ "modified_by": "Administrator",
+ "module": "Sva Hrms",
+ "name": "HRMS Daily Worklogs",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 50.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Daily Worklog",
+   "link_to": "Daily Worklog",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "HRMS Daily Worklogs",
+ "type": "Workspace"
+}
