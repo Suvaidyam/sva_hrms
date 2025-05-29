@@ -251,6 +251,7 @@ fixtures=[
     # "My Theme"
     # "Employee",
     # "User"
+    # "Daily Worklog"
 ]
 
 
