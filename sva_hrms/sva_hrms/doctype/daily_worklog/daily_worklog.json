@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-27 12:28:24.535843",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_bamh",
+  "employee",
+  "employee_name",
+  "column_break_bbxu",
+  "date",
+  "section_break_pdsy",
+  "timesheet_detail",
+  "amended_from",
+  "attachment_section",
+  "activity_photo",
+  "section_break_xgzx",
+  "total_working_hours",
+  "column_break_ivya",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_bamh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Worklog",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "column_break_bbxu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_pdsy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "timesheet_detail",
+   "fieldtype": "Table",
+   "label": "Timesheet",
+   "options": "Timesheet Details Child"
+  },
+  {
+   "fieldname": "section_break_xgzx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "total_working_hours",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Working Hours"
+  },
+  {
+   "fieldname": "attachment_section",
+   "fieldtype": "Section Break",
+   "label": "Attachment"
+  },
+  {
+   "fieldname": "activity_photo",
+   "fieldtype": "Attach Image",
+   "label": "Activity Photo"
+  },
+  {
+   "fieldname": "column_break_ivya",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-27 15:47:05.896146",
+ "modified_by": "Administrator",
+ "module": "Sva Hrms",
+ "name": "Daily Worklog",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
