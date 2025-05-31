@@ -238,7 +238,7 @@ app_license = "mit"
 # }
 
 fixtures=[
-    # 'Custom DocPerm',
+    'Custom DocPerm',
     # 'Staffing Plan',
     # 'Job Applicant',
     # 'Job Opening',
@@ -262,7 +262,7 @@ add_to_apps_screen = [
     {
         "name": "sva_hrms",
         "logo": "/assets/sva_hrms/images/suvaidya_logo.png",
-        "title": "Suvaidyam Hrms",
+        "title": "Suvaidyam",
         "route": "/app",
     }
 ]
