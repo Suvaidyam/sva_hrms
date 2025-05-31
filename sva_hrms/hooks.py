@@ -238,7 +238,7 @@ app_license = "mit"
 # }
 
 fixtures=[
-    'Custom DocPerm',
+    # 'Custom DocPerm',
     # 'Staffing Plan',
     # 'Job Applicant',
     # 'Job Opening',
