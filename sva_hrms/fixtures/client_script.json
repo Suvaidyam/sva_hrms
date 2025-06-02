@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Daily Worklog",
+  "enabled": 1,
+  "modified": "2025-05-28 15:47:40.477634",
+  "module": "Sva Hrms",
+  "name": "Daily worklog",
+  "script": " function calculate_total_working_hours(frm) {\n    if(frm.doc.timesheet_detail.length){\n        let working_hrs = frm.get_sum('timesheet_detail','hours')\n        frm.set_value('total_working_hours', working_hrs)\n    }else{\n        frm.set_value('total_working_hours', 0)\n    }\n}\n\n\nfrappe.ui.form.on('Daily Worklog', {\n    refresh(frm) {\n        \n        let today = new Date();\n        let min_date = new Date();\n        min_date.setFullYear(today.getFullYear() - 18);\n        frm.set_df_property('date', 'max_date', frappe.datetime.str_to_obj(today));\n        // Update the datepicker with the new constraints\n        $(frm.fields_dict['date'].$input).datepicker({\n            maxDate: today,\n            // minDate: min_date,\n            yearRange: '-100:+0'\n        });\n        \n    },\n});\n\nfrappe.ui.form.on('Timesheet Details Child', {\n   hours(frm,cdn,cdt){\n       calculate_total_working_hours(frm)\n   }\n});\n",
+  "view": "Form"
+ }
+]

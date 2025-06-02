@@ -250,8 +250,8 @@ fixtures=[
     # "Gender"
     # "My Theme"
     # "Employee",
-    # "User"
-    # "Daily Worklog"
+    # "User",
+    # "Client Script"
 ]
 
 
