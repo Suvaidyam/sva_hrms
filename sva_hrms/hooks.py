@@ -263,6 +263,6 @@ add_to_apps_screen = [
         "name": "sva_hrms",
         "logo": "/assets/sva_hrms/images/suvaidya_logo.png",
         "title": "Suvaidyam",
-        "route": "/app",
+        "route": "/app", 
     }
 ]
