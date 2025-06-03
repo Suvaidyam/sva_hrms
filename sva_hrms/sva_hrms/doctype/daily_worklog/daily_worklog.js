@@ -37,7 +37,6 @@
 // License: GNU General Public License v3. See license.txt
 
 frappe.ui.form.on("Daily Worklog", {
-
     onload: function (frm) {
         if (frm.is_new()) {
             frappe.call({
