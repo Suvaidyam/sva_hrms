@@ -19,7 +19,8 @@ class DailyWorklog(Document):
                     'custom_date': data.date,
                     'description': data.description,
                     'from_time': data.from_time,
-                    'to_time': data.to_time
+                    'to_time': data.to_time,
+                    'is_billable': data.is_billable,
                 })
-        
+	
         time_sheet_doc.insert(ignore_permissions=True)
