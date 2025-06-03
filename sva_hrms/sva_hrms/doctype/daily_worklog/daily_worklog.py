@@ -20,7 +20,7 @@ class DailyWorklog(Document):
                     'description': data.description,
                     'from_time': data.from_time,
                     'to_time': data.to_time,
-                    'is_billable': data.is_billable,
+                    'is_billable': data.is_billable, 
                 })
 	
         time_sheet_doc.insert(ignore_permissions=True)
