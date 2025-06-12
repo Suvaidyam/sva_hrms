@@ -1,8 +1,8 @@
 {
  "app": "sva_hrms",
  "charts": [],
- "content": "[{\"id\":\"fdy-cRbfMv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Worklog\",\"col\":3}}]",
- "creation": "2025-05-27 14:36:42.292806",
+ "content": "[{\"id\":\"JREo6BtruF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Worklog\",\"col\":3}}]",
+ "creation": "2025-06-12 17:04:19.859776",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -12,13 +12,13 @@
  "idx": 0,
  "indicator_color": "green",
  "is_hidden": 0,
- "label": "Daily Worklogs ",
+ "label": "Daily Worklogs",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-06-12 16:26:52.954783",
+ "modified": "2025-06-12 17:10:29.168656",
  "modified_by": "Administrator",
  "module": "Sva Hrms",
- "name": "Daily Worklogs ",
+ "name": "Daily Worklogs",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -36,6 +36,6 @@
    "type": "DocType"
   }
  ],
- "title": "Daily Worklogs ",
+ "title": "Daily Worklogs",
  "type": "Workspace"
 }
