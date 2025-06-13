@@ -13,7 +13,7 @@
  "is_standard": 1,
  "label": "My Attendnce",
  "method": "sva_hrms.sva_hrms.custom_number_cards.me.get_current_user_attendance",
- "modified": "2025-05-15 15:47:45.250995",
+ "modified": "2025-06-13 11:33:48.111380",
  "modified_by": "Administrator",
  "module": "Sva Hrms",
  "name": "My Attendnce",
