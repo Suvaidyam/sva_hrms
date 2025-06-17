@@ -26,41 +26,6 @@ status_map = {
 day_abbr = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 
-<<<<<<< HEAD
-=======
-def execute(filters: Filters | None = None) -> tuple:
-    filters = frappe._dict(filters or {})
-    filters["company"] = "# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
-# License: GNU General Public License v3. See license.txt
-
-
-from calendar import monthrange
-from itertools import groupby
-
-import frappe
-from frappe import _
-from frappe.query_builder.functions import Count, Extract, Sum
-from frappe.utils import cint, cstr, getdate
-from frappe.utils.nestedset import get_descendants_of
-
-Filters = frappe._dict
-
-status_map = {
-    "Present": "P",
-    "Absent": "A",
-    "Half Day": "HD",
-    "Work From Home": "WFH",
-    "On Leave": "L",
-    "Holiday": "H",
-    "Weekly Off": "WO",
-    "Checked In": "IN",
-    "Not In": "OUT",
-}
-
-day_abbr = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-
-
->>>>>>> dev_vivek
 def execute(filters: Filters | None = None) -> tuple:
     filters = frappe._dict(filters or {})
     filters["company"] = "Suvaidyam"
