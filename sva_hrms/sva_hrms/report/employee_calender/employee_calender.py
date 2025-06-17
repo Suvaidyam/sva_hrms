@@ -25,6 +25,7 @@ status_map = {
 
 day_abbr = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
+
 def execute(filters: Filters | None = None) -> tuple:
     filters = frappe._dict(filters or {})
     filters["company"] = "Suvaidyam"
