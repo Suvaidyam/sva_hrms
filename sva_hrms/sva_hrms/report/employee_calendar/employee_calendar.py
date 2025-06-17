@@ -30,7 +30,7 @@ day_abbr = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 def execute(filters: Filters | None = None) -> tuple:
     filters = frappe._dict(filters or {})
-    filters["company"] = "DhwaniRIS"
+    filters["company"] = "Suvaidyam"
     if not (filters.month and filters.year):
         frappe.throw(_("Please select month and year."))
 
