@@ -1,62 +1,64 @@
 {
-    "charts": [],
-    "content": "[{\"id\":\"6vB6bOtObE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">My Team</span>\",\"col\":12}},{\"id\":\"ICb8WdLbGe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"My Team\",\"col\":4}},{\"id\":\"l9LynOtfbH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Team Attendance\",\"col\":4}},{\"id\":\"1gAzw0ee52\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Team Leave Application\",\"col\":4}},{\"id\":\"rRXQwU18Zk\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Timesheet\",\"col\":4}},{\"id\":\"aCtFaI1jlZ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"My Team Work From Home List\",\"col\":4}}]",
-    "creation": "2025-02-05 22:49:51.277241",
-    "custom_blocks": [],
-    "docstatus": 0,
-    "doctype": "Workspace",
-    "for_user": "",
-    "hide_custom": 0,
-    "icon": "share-people",
-    "idx": 0,
-    "indicator_color": "green",
-    "is_hidden": 0,
-    "label": "My Team",
-    "links": [],
-    "modified": "2025-02-12 18:32:47.652048",
-    "modified_by": "Administrator",
-    "module": "Sva Hrms",
-    "name": "My Team",
-    "number_cards": [
-        {
-            "label": "My Team",
-            "number_card_name": "My Team"
-        },
-        {
-            "label": "Timesheet",
-            "number_card_name": "Timesheet"
-        },
-        {
-            "label": "Team Attendance",
-            "number_card_name": "Team Attendance"
-        },
-        {
-            "label": "Team Leave Application",
-            "number_card_name": "Team Leave"
-        }
-    ],
-    "owner": "Administrator",
-    "parent_page": "",
-    "public": 1,
-    "quick_lists": [],
-    "roles": [
-        {
-            "role": "System Manager"
-        },
-        {
-            "role": "Projects Manager"
-        },
-        {
-            "role": "Leave Approver"
-        },
-        {
-            "role": "HR Manager"
-        },
-        {
-            "role": "Employee"
-        }
-    ],
-    "sequence_id": 3.0,
-    "shortcuts": [],
-    "title": "My Team"
+ "app": "sva_hrms",
+ "charts": [],
+ "content": "[{\"id\":\"6vB6bOtObE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">My Team</span>\",\"col\":12}},{\"id\":\"ICb8WdLbGe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"My Team\",\"col\":4}},{\"id\":\"l9LynOtfbH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Team Attendance\",\"col\":4}},{\"id\":\"1gAzw0ee52\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Team Leave Application\",\"col\":4}},{\"id\":\"rRXQwU18Zk\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Timesheet\",\"col\":4}},{\"id\":\"aCtFaI1jlZ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"My Team Work From Home List\",\"col\":4}}]",
+ "creation": "2025-02-05 22:49:51.277241",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "My Team",
+ "links": [],
+ "modified": "2025-06-17 11:36:50.226360",
+ "modified_by": "Administrator",
+ "module": "Sva Hrms",
+ "name": "My Team",
+ "number_cards": [
+  {
+   "label": "My Team",
+   "number_card_name": "My Team"
+  },
+  {
+   "label": "Timesheet",
+   "number_card_name": "Timesheet"
+  },
+  {
+   "label": "Team Attendance",
+   "number_card_name": "Team Attendance"
+  },
+  {
+   "label": "Team Leave Application",
+   "number_card_name": "Team Leave"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Projects Manager"
+  },
+  {
+   "role": "Leave Approver"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Employee"
+  }
+ ],
+ "sequence_id": 3.0,
+ "shortcuts": [],
+ "title": "My Team",
+ "type": "Workspace"
 }
