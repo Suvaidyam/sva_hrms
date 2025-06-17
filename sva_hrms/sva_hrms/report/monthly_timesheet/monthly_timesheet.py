@@ -42,7 +42,7 @@ def execute(filters=None):
     for ts in timesheets:
         date_str = ts.start_date.strftime('%Y-%m-%d')
         key = (ts.employee, date_str)
-        timesheet_map[key] = ts.workflow_state
+        timesheet_map[key] = ts.workflow_state or "Unknown"  # Fallback for None
 
     # Prepare data rows
     data = []
@@ -74,6 +74,8 @@ def execute(filters=None):
     return columns, data
 
 def get_color(state):
+    if not state:
+        return "gray"  # Default color for undefined states
     state = state.lower()
     if "reject" in state:
         return "red"
