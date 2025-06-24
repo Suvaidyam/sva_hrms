@@ -1,0 +1,212 @@
+[
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-01-01",
+  "holiday_list_name": "01 January 2025",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p>New Year's Day</p></div>",
+    "holiday_date": "2025-01-01",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-20 10:47:06.676642",
+  "name": "01 January 2025",
+  "subdivision": null,
+  "to_date": "2025-12-31",
+  "total_holidays": 1,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-01-14",
+  "holiday_list_name": "14 March 2025",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p>Holi</p></div>",
+    "holiday_date": "2025-03-14",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-21 10:41:22.038786",
+  "name": "14 March 2025",
+  "subdivision": null,
+  "to_date": "2026-01-13",
+  "total_holidays": 1,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-03-31",
+  "holiday_list_name": "31 March 2025",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p><span style=\"font-size: 14px; background-color: rgb(248, 248, 248); color: rgb(56, 56, 56);\">Eid ul-Fitr</span></p><p><br></p></div>",
+    "holiday_date": "2025-03-31",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-21 11:23:57.904692",
+  "name": "31 March 2025",
+  "subdivision": null,
+  "to_date": "2026-03-30",
+  "total_holidays": 1,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-08-08",
+  "holiday_list_name": "08 August 2025",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p><span style=\"background-color: rgb(255, 255, 255); font-size: 13px; color: rgb(34, 34, 34);\">Raksha Bandhan</span></p></div>",
+    "holiday_date": "2025-08-08",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-21 11:55:00.405808",
+  "name": "08 August 2025",
+  "subdivision": null,
+  "to_date": "2026-08-07",
+  "total_holidays": 1,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-08-15",
+  "holiday_list_name": "15 August 2025",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p><span style=\"font-size: 14px; background-color: rgb(248, 248, 248); color: rgb(56, 56, 56);\">Independence Day</span></p></div>",
+    "holiday_date": "2025-08-15",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-21 11:54:37.373471",
+  "name": "15 August 2025",
+  "subdivision": null,
+  "to_date": "2026-08-14",
+  "total_holidays": 1,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-10-02",
+  "holiday_list_name": "02 October 2025",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p><span style=\"font-size: 14px; background-color: rgb(248, 248, 248); color: rgb(56, 56, 56);\">Gandhi Jayanti</span></p></div>",
+    "holiday_date": "2025-10-02",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-21 11:56:38.344377",
+  "name": "02 October 2025",
+  "subdivision": null,
+  "to_date": "2026-10-01",
+  "total_holidays": 1,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-10-20",
+  "holiday_list_name": "20 October 2025",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p><span style=\"font-size: 14px; background-color: rgb(248, 248, 248); color: rgb(56, 56, 56);\">Diwali</span></p></div>",
+    "holiday_date": "2025-10-20",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-21 12:05:23.509824",
+  "name": "20 October 2025",
+  "subdivision": null,
+  "to_date": "2026-10-19",
+  "total_holidays": 1,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-10-21",
+  "holiday_list_name": "21 October 2025",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p><span style=\"font-size: 14px; background-color: rgb(248, 248, 248); color: rgb(56, 56, 56);\">Diwali</span></p></div>",
+    "holiday_date": "2025-10-21",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-21 12:06:08.289307",
+  "name": "21 October 2025",
+  "subdivision": null,
+  "to_date": "2026-10-20",
+  "total_holidays": 1,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-10-22",
+  "holiday_list_name": "22 October 2025",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p><span style=\"color: rgb(34, 34, 34); font-size: 13px; background-color: rgb(255, 255, 255);\">Govardhan Pooja</span></p></div>",
+    "holiday_date": "2025-10-22",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-21 12:09:27.631036",
+  "name": "22 October 2025",
+  "subdivision": null,
+  "to_date": "2026-10-21",
+  "total_holidays": 1,
+  "weekly_off": ""
+ },
+ {
+  "color": null,
+  "country": null,
+  "docstatus": 0,
+  "doctype": "Holiday List",
+  "from_date": "2025-12-25",
+  "holiday_list_name": "25 December",
+  "holidays": [
+   {
+    "description": "<div class=\"ql-editor read-mode\"><p><span style=\"font-size: 14px; background-color: rgb(248, 248, 248); color: rgb(56, 56, 56);\">Christmas Day</span></p></div>",
+    "holiday_date": "2025-12-25",
+    "weekly_off": 0
+   }
+  ],
+  "modified": "2025-06-21 12:11:15.284840",
+  "name": "25 December",
+  "subdivision": null,
+  "to_date": "2026-12-24",
+  "total_holidays": 1,
+  "weekly_off": ""
+ }
+]

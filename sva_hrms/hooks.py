@@ -252,6 +252,7 @@ fixtures=[
     # "Employee",
     # "User",
     # "Client Script"
+    # "Holiday List"
 ]
 
 
