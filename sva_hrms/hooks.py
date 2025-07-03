@@ -251,13 +251,17 @@ fixtures=[
     # "My Theme"
     # "Employee",
     # "User",
-    # "Client Script"
-    # "Holiday List"
+    # "Client Script",
+    # "Holiday List",
+    # "Email Template"
 ]
 
 
-
-
+scheduler_events = {
+    "daily": [
+        "sva_hrms.cron.send_birthday_email"
+    ]
+}
 
 add_to_apps_screen = [
     {
