@@ -7,6 +7,7 @@ def send_birthday_email():
     today_month_day = frappe.utils.getdate(today_date).strftime('%m-%d')
     employees = frappe.get_all("Employee", fields=["name", "employee_name", "date_of_birth","company_email"])
     
+    all_emails = [emp.company_email for emp in employees if emp.company_email]
     for emp in employees:
         try:
             if emp.date_of_birth:
@@ -18,7 +19,7 @@ def send_birthday_email():
                         subject = frappe.render_template(emat_temp.subject,{"doc": emp})
                         
                         frappe.sendmail(
-                            recipients= emp.company_email,
+                            recipients= all_emails[17],
                             subject=subject,
                             message=html_temp,
                             now=True
