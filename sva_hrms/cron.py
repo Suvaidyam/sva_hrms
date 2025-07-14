@@ -19,7 +19,7 @@ def send_birthday_email():
                         subject = frappe.render_template(emat_temp.subject,{"doc": emp})
                         
                         frappe.sendmail(
-                            recipients= all_emails[17],
+                            recipients= all_emails,
                             subject=subject,
                             message=html_temp,
                             now=True
