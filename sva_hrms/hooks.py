@@ -254,6 +254,9 @@ fixtures=[
     # "Client Script",
     # "Holiday List",
     # "Email Template"
+    # "Workflow",
+    # "Workflow Action Master",
+    # "Workflow State"
 ]
 
 

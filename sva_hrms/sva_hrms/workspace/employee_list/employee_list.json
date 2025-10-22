@@ -15,7 +15,7 @@
  "label": "Employee List",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-19 15:19:51.664810",
+ "modified": "2025-10-21 16:07:37.627417",
  "modified_by": "Administrator",
  "module": "Sva Hrms",
  "name": "Employee List",
@@ -24,11 +24,7 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [
-  {
-   "role": "Employee"
-  }
- ],
+ "roles": [],
  "sequence_id": 6.0,
  "shortcuts": [
   {
