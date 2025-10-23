@@ -249,8 +249,6 @@ fixtures=[
     # 'Interview Schedule'
     # "Gender"
     # "My Theme"
-    # "Employee",
-    # "User",
     # "Client Script",
     # "Holiday List",
     # "Email Template"
